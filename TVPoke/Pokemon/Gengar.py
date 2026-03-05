@@ -10,4 +10,4 @@ class Gengar(Ghost):
             Move("Psywave", "PSYCHIC", randint(30, 150)),
             Move("Dream Eater", "PSYCHIC", 100)
         ]
-        super().__init__("Gengar", 274, moves, "./TVPoke/Pokemon/imgs/Golduck.png")
+        super().__init__("Gengar", 274, moves, "./TVPoke/Pokemon/imgs/Gengar.png")
