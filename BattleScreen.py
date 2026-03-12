@@ -26,6 +26,12 @@ class BattleScreen(Screen):
                 self.elements.append(Label((x, y + 10), 20, 10, poke.name))
                 
 
+        x = 15
+        y = 80
+        for move in self.trainers[0].pokemon[0].moves:
+            self.elements.append(Label((x, y), 20, 10, move.name))
+            y -= 15
 
 
-
+x = 25
+y = 25
